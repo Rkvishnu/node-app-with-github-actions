@@ -19,7 +19,7 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello, this was awesome';
+  const msg = 'Hello, It was awsome to create an cicd pipeline using github actions';
   res.send(getPage(msg));
 });
 
