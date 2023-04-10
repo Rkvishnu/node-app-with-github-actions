@@ -11,7 +11,7 @@ eksctl create cluster --name eks-learning02 --region us-east-2 --nodegroup-name 
         Go to settings of repo
         click on secrets and variables
 6. Now push or commit the code to the github reposittory and see the changes
-7. TO GET THE DNS DOMAIN OF THE APPLICATION go to aws-cli on the system and 
+7. TO GET THE DNS DOMAIN OF THE APPLICATION go to aws-cli on the system and  type
   1. cd .aws
   2. kubectl get pods
   3. kubetctl get service 
